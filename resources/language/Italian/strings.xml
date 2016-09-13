@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<strings>
+    <!-- Settings -->
+    <string id="10001">Credenziali di accesso di Skystreaming</string>
+	<string id="10002">Email</string>
+	<string id="10003">Password</string>
+	<!-- Exceptions -->
+	<string id="11001">Login error: controlla le credenziali</string>
+	<string id="11002">Devi avere l'account premium</string>
+    <!-- Errors -->
+	<string id="11004">Devi specificare le credenziali di Skystreaming</string>
+    <string id="11005">Errore Skystreaming</string>
+    <string id="11006">Playlist non trovata</string>
+</strings>
