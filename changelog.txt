@@ -1,3 +1,10 @@
+0.8.2
+- Changed Top Level Domain
+- Unicode json into UTF-8
+
+0.8.1
+- Changed Top Level Domain
+
 0.8.0
 - Store Skystreaming IPTV playlist
 
