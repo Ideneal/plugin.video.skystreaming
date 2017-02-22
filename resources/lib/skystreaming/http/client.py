@@ -4,7 +4,7 @@ import cookielib
 
 
 class Client(object):
-    BASE_URL = 'https://skystreaming.cc/'
+    BASE_URL = 'https://skystreaming.co/'
 
     DEFAULT_HEADERS = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64)'}
 

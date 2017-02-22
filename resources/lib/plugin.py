@@ -73,7 +73,7 @@ def fetch_playlist():
         log(e.http_message)
         notify(ADDON.getLocalizedString(11001))
     except AccountError as e:
-        log(str(e))
+        log(e.message)
         notify(ADDON.getLocalizedString(11002))
 
 

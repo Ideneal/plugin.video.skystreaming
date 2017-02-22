@@ -23,7 +23,7 @@ def save_list(filename, list):
     """save a list"""
     try:
         with io.open(filename, 'w', encoding='utf-8') as handle:
-            handle.write(unicode(json.dumps(list, indent=4, ensure_ascii=False)))
+            handle.write(unicode(json.dumps(list, indent=4, ensure_ascii=False), 'utf-8'))
         success = True
     except Exception as ex:
         print ex
