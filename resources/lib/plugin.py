@@ -100,7 +100,7 @@ def play_channel(url, name):
     """play a channel"""
     item = xbmcgui.ListItem(name, iconImage='DefaultVideo.png')
     item.setInfo(type='Video', infoLabels={'Title': name})
-    xbmc.Player(xbmc.PLAYER_CORE_DVDPLAYER).play(url, item)
+    xbmc.Player().play(url, item)
 
 
 def start():
